@@ -76,11 +76,11 @@ nav {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.banner-content:hover {
+.banner-content button:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-.banner-content:active {
+.banner-content button:active {
   transform: translateY(0);
   box-shadow: none;
 }
