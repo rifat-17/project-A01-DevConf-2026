@@ -16,7 +16,7 @@ nav {
   padding: 18px 8%;
 }
 
-ul {
+.nav-list {
   display: flex;
   list-style: none;
   gap: 20px;
@@ -54,6 +54,7 @@ ul {
   display: grid;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .banner-content {
@@ -138,3 +139,121 @@ ul {
 }
 
 
+.pricing{
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.pricing h1{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.pricing > p{
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: stretch;
+}
+
+.pricing-cards{
+  background: white;
+   width: 320px;
+    padding: 30px;  
+     border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+     text-align: left;
+}
+
+.featured{
+    background: #0D1B2A;
+    color: white;
+
+    transform: scale(1.05);
+}
+
+
+.pricing-cards h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+.price{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.featured .price{
+    color: white;
+}
+
+.pricing-features{
+  list-style: disc;
+  text-align: left;
+  margin: 25px 0;
+  padding-left:   20px;
+  
+}
+
+.pricing-features li{
+  margin-bottom: 12px;
+  color:   #555;
+}
+
+button{
+  background: #0077ff;
+  color: white;
+
+    border: none;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+        font-size: 16px;
+    font-weight: bold;
+
+   
+}
+button:hover{
+    background: #005ecc;
+}
+
+.featured button:hover{
+    background: #eeeeee;
+}
+.featured button{
+    background: white;
+    color: #0077ff;
+}
+.featured p,
+.featured li, 
+.featured h2{
+    color: rgba(27, 111, 255, 0.796)
+}
+
+.banner{
+    margin-bottom: 80px;
+}
+
+.speakers{
+    margin-bottom: 80px;
+}
+
+.pricing{
+    margin-bottom: 80px;
+}
+
+  
